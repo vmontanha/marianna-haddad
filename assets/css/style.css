@@ -45,7 +45,7 @@ header {
 }
 
 .orange {
-          color: #c850c0;
+          color: #FE8200;
 }
 
 .home__name p {
@@ -62,7 +62,7 @@ header {
           position: fixed;
           top: 0;
           left: 0;
-          height: 110%;
+          height: 100%;
           overflow: hidden;
           width: 100%;
           background: linear-gradient(-135deg, #c850c0, #4158d0);
@@ -90,7 +90,7 @@ header {
           font-size: 20px;
           color: #fff;
           cursor: pointer;
-          background: linear-gradient(-135deg, #c850c0, #4158d0);
+          background: linear-gradient(90deg, rgba(254, 130, 0, 1) 32%, rgba(255, 160, 60, 1) 81%);
           /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
           transition: all 0.3s ease-in-out;
 }
@@ -211,7 +211,7 @@ input[type="checkbox"] {
           opacity: 0.5;
           font-size: 150px;
           line-height: -10px;
-          color: #4158d0;
+          color: #F59AC9;
           font-family: Mango, sans-serif;
 }
 
@@ -223,5 +223,23 @@ input[type="checkbox"] {
           z-index: 0;
           opacity: 0.5;
           font-size: 20px;
-          color: #4158d0;
+          color: #FE8200;
+}
+
+.smile__icon {
+          position: absolute;
+          width: 80px;
+          top: 50vh;
+          left: 42vw;
+          animation: rotate 2s infinite;
+}
+
+@keyframes rotate {
+          from {
+                    transform: rotate(0deg);
+          }
+
+          to {
+                    transform: rotate(360deg);
+          }
 }
